@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Angelo's rclone uploader</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<h1>Angelo's rclone uploader</h1>
+<p>A personal command-line tool that copies large files, such as screen recordings of software tests, from the developer's own computer to a Google Drive folder. It uses <a href="https://rclone.org/">rclone</a>, an open-source file transfer program, with a personal OAuth client.</p>
+<h2>What it does</h2>
+<ul>
+<li>Signs in with a Google account through the standard Google consent screen.</li>
+<li>Requests only the <code>drive.file</code> scope. The tool can see and change only the files and folders it creates itself, not the rest of the Drive.</li>
+<li>Copies files from the user's computer to one Drive folder. It does not delete or overwrite files outside that folder.</li>
+</ul>
+<h2>Who can use it</h2>
+<p>The developer and the people they share a folder with. This is not a public service, and there is nothing to sign up for.</p>
+<p><a href="privacy.html">Privacy policy</a> · <a href="https://github.com/AngeloBenjamin0/rclone-uploader/issues">Contact</a></p>
+<footer>This tool is independent. It is not provided or endorsed by Google or the rclone project.</footer>
+</body></html>
